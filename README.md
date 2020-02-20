@@ -48,6 +48,18 @@ Uses BIOS F11. CFG lock is at 0x5C1 (**DO NOT COPY THIS VALUE**).
 
 Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to remove CFG Lock (MSR 0xE2 write protection).
 
+## Projects Utilised
+
+| Name | Version | Link |
+|------|---------|------|
+| OpenCore | 0.5.5 | https://github.com/acidanthera/OpenCorePkg |
+| Lilu | 1.4.1 | https://github.com/acidanthera/Lilu |
+| WhateverGreen | 1.3.6 | https://github.com/acidanthera/WhateverGreen |
+| AppleALC | 1.4.6 | https://github.com/acidanthera/AppleALC |
+| IntelMausiEthernet | [2.5.0d0](https://github.com/Mieze/IntelMausiEthernet/tree/f3c69cec20efd24fa467cf16f44ccaae61336766) | https://github.com/Mieze/IntelMausiEthernet |
+| VirtualSMC | 1.1.1 | https://github.com/acidanthera/VirtualSMC |
+| USBMap | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap |
+
 ## Feature Checklist
 
 | Feature | Working | Notes |
