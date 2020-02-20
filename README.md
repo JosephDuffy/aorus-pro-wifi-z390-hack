@@ -4,24 +4,24 @@ This is my personal setup. It probably won't work for other setups (even with id
 
 ## Hardware
 
-CPU: Intel Core i9-9900K 3.6 GHz 8-Core Processor
-CPU Cooler: ARCTIC Liquid Freezer 240 74 CFM Liquid CPU Cooler
-Motherboard: Gigabyte Z390 AORUS PRO WIFI ATX LGA1151 Motherboard
-Memory: Corsair Vengeance LPX 32 GB (4 x 8 GB) DDR4-3200
-Storage: Samsung 960 EVO 500 GB M.2-2280 NVME Solid State Drive (macOS)
-Storage: Samsung 850 EVO-Series 250 GB 2.5" Solid State Drive (Windows)
-Video Card: MSI Radeon RX 580 8 GB ARMOR OC Video Card
-Thunderbolt Card: Gigabyte Titan Ridge
-Case: Fractal Design Define S ATX Mid Tower Case
-Power Supply: SeaSonic 750 W 80+ Gold Certified Fully Modular ATX Power Supply
-WiFi/BT: Fenvi T919
-Monitor: LG UltraFine 5K
+- CPU: Intel Core i9-9900K 3.6 GHz 8-Core Processor
+- CPU Cooler: ARCTIC Liquid Freezer 240 74 CFM Liquid CPU Cooler
+- Motherboard: Gigabyte Z390 AORUS PRO WIFI ATX LGA1151 Motherboard
+- Memory: Corsair Vengeance LPX 32 GB (4 x 8 GB) DDR4-3200
+- Storage: Samsung 960 EVO 500 GB M.2-2280 NVME Solid State Drive (macOS)
+- Storage: Samsung 850 EVO-Series 250 GB 2.5" Solid State Drive (Windows)
+- Video Card: MSI Radeon RX 580 8 GB ARMOR OC Video Card
+- Thunderbolt Card: Gigabyte Titan Ridge
+- Case: Fractal Design Define S ATX Mid Tower Case
+- Power Supply: SeaSonic 750 W 80+ Gold Certified Fully Modular ATX Power Supply
+- WiFi/BT: Fenvi T919
+- Monitor: LG UltraFine 5K
 
 ### Hardware Configuration
 
-GPU in PCIEX16
-WiFi/BT card in PCIeX1_1
-Thunderbolt Card in PCIEX4
+- GPU in PCIEX16
+- WiFi/BT card in PCIeX1_1
+- Thunderbolt Card in PCIEX4
 
 ## BIOS Configuration
 
