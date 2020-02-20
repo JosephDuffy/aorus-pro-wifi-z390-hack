@@ -72,3 +72,13 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Onboard Audio | ☑ | Only 3.5mm output tested |
 | USB Audio | ☑ |  |
 | Sleep/Wake | ☑ | Stasy asleep. Wakes for powernap and goes back to sleep. |
+
+## Anonymisation Git Hook
+
+Provided in the `hooks` directory is a pre-commit hook to anonymise the config plist files to remove sensitive information, such as serial numbers.
+
+To have this automatically run setup git to use the `hook` directory:
+
+```
+git config core.hooksPath hooks
+```
