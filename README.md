@@ -43,8 +43,9 @@ Uses BIOS F11. CFG lock is at 0x5C1 (**DO NOT COPY THIS VALUE**).
       - Legacy USB Support: Disabled
       - XHCI Hand-off: Enabled
 - Boot
-  - CSM Support: Disabled
   - Preferred Operating Mode: Advanced Mode
+
+Note that CSM Support is left as enabled; disabling CSM Support causes a boot hang on reboot. For more infomation see [Issue #1](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1).
 
 Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to remove CFG Lock (MSR 0xE2 write protection).
 
@@ -66,8 +67,8 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 |---------|---------|-------|
 | Thunderbolt Hotplug | ☒ |  |
 | Thunderbolt after wake from sleep | ☒ |  |
-| Reboot | ☒ | Hangs on BIOS logo |
 | DRM content in Safari | ☒ | Likely needs shivigva=80. Will wait for 10.15.4 |
+| Reboot | ☑ |  |
 | Hardware Acceleration | ☑ | h464/HEVC |
 | Apple TV Playback | ☑ |  |
 | CPU Power States | ☑ | Ranges from 800MHz up to 5GHz (Turbo Boost) |
