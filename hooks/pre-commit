@@ -2,3 +2,4 @@
 
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source ${__dir}/../scripts/anonymise_plist.sh ${__dir}/../EFI/OC/config.plist
+git add ${__dir}/../EFI/OC/config.plist
