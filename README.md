@@ -33,8 +33,6 @@ Uses BIOS F11. CFG lock is at 0x5C1 (**DO NOT COPY THIS VALUE**).
 - Tweaker
   - XMP Profile: Profile1
 - Settings
-  - Platform Power
-    - ErP: Enabled (Fixes boot after shutdown)
   - IO Ports
     - Internal Graphics: Enabled
     - WiFi: Disabled
@@ -60,14 +58,15 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | IntelMausiEthernet | [2.5.0d0](https://github.com/Mieze/IntelMausiEthernet/tree/f3c69cec20efd24fa467cf16f44ccaae61336766) | https://github.com/Mieze/IntelMausiEthernet |
 | VirtualSMC | 1.1.1 | https://github.com/acidanthera/VirtualSMC |
 | USBMap | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap |
+| SSDT for Thunderbolt 3 Hotplug | V2 | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/ |
 
 ## Feature Checklist
 
 | Feature | Working | Notes |
 |---------|---------|-------|
-| Thunderbolt Hotplug | ☒ |  |
-| Thunderbolt after wake from sleep | ☒ |  |
 | DRM content in Safari | ☒ | Likely needs shivigva=80. Will wait for 10.15.4 |
+| Thunderbolt Hotplug | ☑ |  |
+| Thunderbolt after wake from sleep | ☑ |  |
 | Reboot | ☑ |  |
 | Hardware Acceleration | ☑ | h464/HEVC |
 | Apple TV Playback | ☑ |  |
