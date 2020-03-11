@@ -104,7 +104,7 @@
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>ShrinkMemoryMap</key>
-			<false/>
+			<true/>
 			<key>SignalAppleOS</key>
 			<false/>
 		</dict>
@@ -446,7 +446,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 slide=0 alcid=1 agdpmod=pikera shikigva=16</string>
+				<string>-v debug=0x100 keepsyms=1 slide=4 alcid=1 agdpmod=pikera shikigva=16</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==

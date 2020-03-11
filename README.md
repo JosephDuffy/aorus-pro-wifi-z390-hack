@@ -2,6 +2,8 @@
 
 This is my personal setup. It probably won't work for other setups (even with identical hardware).
 
+Sometimes the runtime allocation error will start. Wipe CMOS and setup BIOS again to fix.
+
 ## Hardware
 
 - CPU: Intel Core i9-9900K 3.6 GHz 8-Core Processor
@@ -68,23 +70,23 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | DRM content in Safari | ☒ | Likely needs shivigva=80. Will wait for 10.15.4 |
 | Thunderbolt Hotplug | ☑ |  |
 | Thunderbolt after wake from sleep | ☑ |  |
-| Reboot | ☑ |  |
-| Hardware Acceleration | ☑ | h464/HEVC |
+| Reboot | ☑ | Requires CSM to be enabled |
+| Hardware Acceleration | ☑ | h264/HEVC |
 | Apple TV Playback | ☑ |  |
 | CPU Power States | ☑ | Ranges from 800MHz up to 5GHz (Turbo Boost) |
-| Shutdown | ☑ | Requires ErP to be enabled |
+| Shutdown | ☑ | Requires ErP or CSM to be enabled |
 | Multimonitor on boot | ☑ | Dual-DP LG 5k and 4k over HDMI |
 | LG 5k UltraFine | ☑ | Full 5k HDR |
 | Unlock with Watch | ☑ |  |
 | Bluetooth | ☑ |  |
 | WiFi | ☑ |  |
 | iMessage | ☑ |  |
-| Handoff | ☑ | Handoff is flaky even on official hardware |
+| Handoff | ☑ |  |
 | Airdrop | ☑ |  |
 | Hardware Sensors | ☑ | CPU/GPU/RAM usage, etc. via iStat Menus |
 | Onboard Audio | ☑ | Only 3.5mm output tested |
 | USB Audio | ☑ |  |
-| Sleep/Wake | ☑ | Stasy asleep. Wakes for powernap and goes back to sleep. |
+| Sleep/Wake | ☑ | Stays asleep. Wakes for powernap and goes back to sleep. |
 
 ## Anonymisation Git Hook
 
