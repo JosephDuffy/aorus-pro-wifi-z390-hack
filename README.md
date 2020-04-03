@@ -68,7 +68,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Feature | Working | Notes |
 |---------|---------|-------|
 | DRM content in Safari | ☒ | Likely needs shivigva=80. Will wait for 10.15.4 |
-| Thunderbolt Hotplug | ☑ |  |
+| Thunderbolt Hotplug | ☒ |  |
 | Thunderbolt after wake from sleep | ☑ |  |
 | Reboot | ☑ | Requires CSM to be enabled |
 | Hardware Acceleration | ☑ | h264/HEVC |
