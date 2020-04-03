@@ -57,7 +57,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Lilu | 1.4.1 | https://github.com/acidanthera/Lilu |
 | WhateverGreen | 1.3.6 | https://github.com/acidanthera/WhateverGreen |
 | AppleALC | 1.4.6 | https://github.com/acidanthera/AppleALC |
-| IntelMausiEthernet | [2.5.0d0](https://github.com/Mieze/IntelMausiEthernet/tree/f3c69cec20efd24fa467cf16f44ccaae61336766) | https://github.com/Mieze/IntelMausiEthernet |
+| IntelMausiEthernet | 2.5.0 | https://github.com/Mieze/IntelMausiEthernet |
 | VirtualSMC | 1.1.1 | https://github.com/acidanthera/VirtualSMC |
 | NVMeFix | 1.0.1 | https://github.com/acidanthera/NVMeFix |
 | USBMap | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap |
