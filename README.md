@@ -60,6 +60,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | IntelMausiEthernet | 2.5.0 | https://github.com/Mieze/IntelMausiEthernet |
 | VirtualSMC | 1.1.1 | https://github.com/acidanthera/VirtualSMC |
 | NVMeFix | 1.0.1 | https://github.com/acidanthera/NVMeFix |
+| USBInjectAll | 0.7.5 | https://github.com/Sniki/OS-X-USB-Inject-All |
 | USBMap | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap |
 | SSDT for Thunderbolt 3 Hotplug | V2 | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/ |
 
