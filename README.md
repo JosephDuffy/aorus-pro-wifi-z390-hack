@@ -53,10 +53,11 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 
 | Name | Version | Link |
 |------|---------|------|
-| OpenCore | 0.5.5 | https://github.com/acidanthera/OpenCorePkg |
-| Lilu | 1.4.1 | https://github.com/acidanthera/Lilu |
-| WhateverGreen | 1.3.6 | https://github.com/acidanthera/WhateverGreen |
-| AppleALC | 1.4.6 | https://github.com/acidanthera/AppleALC |
+| BIOS | F11 | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
+| OpenCore | 0.5.6 | https://github.com/acidanthera/OpenCorePkg |
+| Lilu | 1.4.2 | https://github.com/acidanthera/Lilu |
+| WhateverGreen | 1.3.7 | https://github.com/acidanthera/WhateverGreen |
+| AppleALC | 1.4.7 | https://github.com/acidanthera/AppleALC |
 | IntelMausiEthernet | 2.5.0 | https://github.com/Mieze/IntelMausiEthernet |
 | VirtualSMC | 1.1.1 | https://github.com/acidanthera/VirtualSMC |
 | NVMeFix | 1.0.1 | https://github.com/acidanthera/NVMeFix |
@@ -69,14 +70,13 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Feature | Working | Notes |
 |---------|---------|-------|
 | FairPlay 1.x: | ☑ |  |
-| FairPlay 2.x/3.x (Netflix/Amazon Prime Video) | ☒ | Likely needs shivigva=80. Will wait for 10.15.4 |
+| FairPlay 2.x/3.x (Netflix/Amazon Prime Video) | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/2 |
 | FairPlay 4.x (Apple TV+) | ☑ |  |
-| Thunderbolt Hotplug | ☒ |  |
+| Thunderbolt Hotplug | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/4 |
 | Thunderbolt after wake from sleep | ☒ |  |
-| [iGPU performance (loading Apple's GuC)](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/drm#fixing-igpu-performance) | ☒ |  |
-| Reboot | ☑ | Requires CSM to be enabled |
+| [iGPU performance (loading Apple's GuC)](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/drm#fixing-igpu-performance) | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/3 |
+| Reboot | ☑ | [Requires CSM to be enabled](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1) |
 | Hardware Acceleration | ☑ | h264/HEVC |
-| Apple TV Playback | ☑ |  |
 | CPU Power States | ☑ | Ranges from 800MHz up to 5GHz (Turbo Boost) |
 | Shutdown | ☑ | Requires ErP or CSM to be enabled |
 | Multimonitor on boot | ☑ | Dual-DP LG 5k and 4k over HDMI |
