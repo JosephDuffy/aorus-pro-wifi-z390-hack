@@ -68,9 +68,12 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 
 | Feature | Working | Notes |
 |---------|---------|-------|
-| DRM content in Safari | ☒ | Likely needs shivigva=80. Will wait for 10.15.4 |
+| FairPlay 1.x: | ☑ |  |
+| FairPlay 2.x/3.x (Netflix/Amazon Prime Video) | ☒ | Likely needs shivigva=80. Will wait for 10.15.4 |
+| FairPlay 4.x (Apple TV+) | ☑ |  |
 | Thunderbolt Hotplug | ☒ |  |
-| Thunderbolt after wake from sleep | ☑ |  |
+| Thunderbolt after wake from sleep | ☒ |  |
+| [iGPU performance (loading Apple's GuC)](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/drm#fixing-igpu-performance) | ☒ |  |
 | Reboot | ☑ | Requires CSM to be enabled |
 | Hardware Acceleration | ☑ | h264/HEVC |
 | Apple TV Playback | ☑ |  |
