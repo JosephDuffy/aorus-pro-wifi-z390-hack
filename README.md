@@ -54,7 +54,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Name | Version | Link |
 |------|---------|------|
 | BIOS | F11 | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
-| OpenCore | 0.5.6 | https://github.com/acidanthera/OpenCorePkg |
+| OpenCore | 0.5.7 | https://github.com/acidanthera/OpenCorePkg |
 | Lilu | 1.4.2 | https://github.com/acidanthera/Lilu |
 | WhateverGreen | 1.3.7 | https://github.com/acidanthera/WhateverGreen |
 | AppleALC | 1.4.7 | https://github.com/acidanthera/AppleALC |
@@ -63,17 +63,17 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | NVMeFix | 1.0.1 | https://github.com/acidanthera/NVMeFix |
 | USBInjectAll | 0.7.5 | https://github.com/Sniki/OS-X-USB-Inject-All |
 | USBMap | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap |
-| SSDT for Thunderbolt 3 Hotplug | V2 | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/ |
+| SSDT for Thunderbolt 3 Hotplug | SSDT-Z370-TB3HP | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/ |
 
 ## Feature Checklist
 
 | Feature | Working | Notes |
 |---------|---------|-------|
 | FairPlay 1.x: | ☑ |  |
-| FairPlay 2.x/3.x (Netflix/Amazon Prime Video) | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/2 |
+| FairPlay 2.x/3.x (Netflix/Amazon Prime Video) | ☑ | Tested with Amazon Prime Video. Max 1080p. |
 | FairPlay 4.x (Apple TV+) | ☑ |  |
-| Thunderbolt Hotplug | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/4 |
-| Thunderbolt after wake from sleep | ☒ |  |
+| Thunderbolt Hotplug | ☑ |  |
+| Thunderbolt after wake from sleep | ☑ |  |
 | [iGPU performance (loading Apple's GuC)](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/drm#fixing-igpu-performance) | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/3 |
 | Reboot | ☑ | [Requires CSM to be enabled](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1) |
 | Hardware Acceleration | ☑ | h264/HEVC |
