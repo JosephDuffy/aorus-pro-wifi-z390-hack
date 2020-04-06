@@ -59,7 +59,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | WhateverGreen | 1.3.8 | https://github.com/acidanthera/WhateverGreen |
 | AppleALC | 1.4.8 | https://github.com/acidanthera/AppleALC |
 | IntelMausiEthernet | 2.5.0 | https://github.com/Mieze/IntelMausiEthernet |
-| VirtualSMC | 1.1.1 | https://github.com/acidanthera/VirtualSMC |
+| VirtualSMC | 1.1.2 | https://github.com/acidanthera/VirtualSMC |
 | NVMeFix | 1.0.2 | https://github.com/acidanthera/NVMeFix |
 | USBInjectAll | 0.7.5 | https://github.com/Sniki/OS-X-USB-Inject-All |
 | USBMap | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap |
