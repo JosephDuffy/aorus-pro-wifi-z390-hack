@@ -39,15 +39,24 @@ Uses BIOS F11. CFG lock is at 0x5C1 (**DO NOT COPY THIS VALUE**).
     - Internal Graphics: Enabled
     - WiFi: Disabled
     - Above 4G Decoding: Enabled
+    - Thunderbolt(TM) Configuration
+      - Security Level: No Security
+      - Discrete Thunderbolt(TM) Configuration
+        - Thunderbolt Usb Support: Enabled
+        - GPIO3 Force Pwr: Enabled
+          - This is not strictly neccessary since the LG 5k is connected at boot
     - USB Configuration
       - Legacy USB Support: Disabled
       - XHCI Hand-off: Enabled
+- System Info.
+  - System Date: Current date
+  - System Time: Current time
 - Boot
   - Preferred Operating Mode: Advanced Mode
 
 Note that CSM Support is left as enabled; disabling CSM Support causes a boot hang on reboot. For more infomation see [Issue #1](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1).
 
-Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to remove CFG Lock (MSR 0xE2 write protection).
+Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to remove CFG Lock (MSR 0xE2 write protection). Reboot.
 
 ## Projects Utilised
 
