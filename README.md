@@ -74,7 +74,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | FairPlay 4.x (Apple TV+) | ☑ |  |
 | Thunderbolt Hotplug | ☑ |  |
 | Thunderbolt after wake from sleep | ☑ |  |
-| [iGPU performance (loading Apple's GuC)](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/drm#fixing-igpu-performance) | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/3 |
+| [iGPU performance (loading Apple's GuC)](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/drm#fixing-igpu-performance) | ☑ | Tested with 400mbps HEVC video from [Jellyfish Bitrate Test Files](http://www.jell.yfish.us/) |
 | Reboot | ☑ | [Requires CSM to be enabled](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1) |
 | Hardware Acceleration | ☑ | h264/HEVC |
 | CPU Power States | ☑ | Ranges from 800MHz up to 5GHz (Turbo Boost) |
