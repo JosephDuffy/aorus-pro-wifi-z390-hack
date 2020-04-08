@@ -29,17 +29,17 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                 {
                     "HS03", Package()
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 0,
                         "port", Buffer() { 3, 0, 0, 0 },
                     },
                     "HS04", Package()
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 0,
                         "port", Buffer() { 4, 0, 0, 0 },
                     },
                     "HS05", Package()
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 0,
                         "port", Buffer() { 5, 0, 0, 0 },
                     },
                     "HS06", Package()
@@ -49,12 +49,12 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                     },
                     "HS09", Package()
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 0,
                         "port", Buffer() { 9, 0, 0, 0 },
                     },
                     "HS10", Package()
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 0,
                         "port", Buffer() { 10, 0, 0, 0 },
                     },
                     "HS11", Package()
@@ -64,7 +64,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                     },
                     "HS13", Package()
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 0,
                         "port", Buffer() { 13, 0, 0, 0 },
                     },
                     "SS03", Package()
@@ -84,7 +84,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                     },
                     "SS06", Package()
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 9,
                         "port", Buffer() { 22, 0, 0, 0 },
                     },
                     "SS09", Package()
