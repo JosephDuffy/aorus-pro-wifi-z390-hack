@@ -1,5 +1,9 @@
 #!/bin/sh
 
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export OPEN_CORE_MLB=REDACTED
+export OPEN_CORE_SystemSerialNumber=REDACTED
+export OPEN_CORE_SystemUUID=REDACTED
+export OPEN_CORE_ROM=REDACTED
 source ${__dir}/../scripts/anonymise_plist.sh ${__dir}/../EFI/OC/config.plist
 git add ${__dir}/../EFI/OC/config.plist

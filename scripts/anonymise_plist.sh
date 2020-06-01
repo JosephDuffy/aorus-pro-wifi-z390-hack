@@ -12,9 +12,11 @@ if ! [ -f "$PLIST_PATH" ]; then
   exit 1
 fi
 
-/usr/libexec/PlistBuddy -c "Set :PlatformInfo:Generic:MLB REDACTED" "$PLIST_PATH"
-/usr/libexec/PlistBuddy -c "Set :PlatformInfo:Generic:SystemSerialNumber REDACTED" "$PLIST_PATH"
-/usr/libexec/PlistBuddy -c "Set :PlatformInfo:Generic:SystemUUID REDACTED" "$PLIST_PATH"
-/usr/libexec/PlistBuddy -c "Set :PlatformInfo:Generic:ROM REDACTED" "$PLIST_PATH"
-
-echo "Anonymised :PlatformInfo:Generic:MLB, PlatformInfo:Generic:SystemSerialNumber, PlatformInfo:Generic:SystemUUID, and PlatformInfo:Generic:ROM in $PLIST_PATH"
+/usr/libexec/PlistBuddy -c "Set :PlatformInfo:Generic:MLB $OPEN_CORE_MLB" "$PLIST_PATH"
+echo "Set PlatformInfo/Generic/MLB to $OPEN_CORE_MLB"
+/usr/libexec/PlistBuddy -c "Set :PlatformInfo:Generic:SystemSerialNumber $OPEN_CORE_SystemSerialNumber" "$PLIST_PATH"
+echo "Set PlatformInfo/Generic/SystemSerialNumber to $OPEN_CORE_SystemSerialNumber"
+/usr/libexec/PlistBuddy -c "Set :PlatformInfo:Generic:SystemUUID $OPEN_CORE_SystemUUID" "$PLIST_PATH"
+echo "Set PlatformInfo/Generic/SystemUUID to $OPEN_CORE_SystemUUID"
+/usr/libexec/PlistBuddy -c "Set :PlatformInfo:Generic:ROM $OPEN_CORE_ROM" "$PLIST_PATH"
+echo "Set PlatformInfo/Generic/ROM to $OPEN_CORE_ROM"
