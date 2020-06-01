@@ -73,6 +73,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | USBInjectAll | 0.7.5 | https://github.com/Sniki/OS-X-USB-Inject-All |
 | USBMap | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap |
 | SSDT for Thunderbolt 3 Hotplug | SSDT-Z370-TB3HP | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/ |
+| Config Sanity Checker | N/A | https://opencore.slowgeek.com/ |
 
 ## Feature Checklist
 
