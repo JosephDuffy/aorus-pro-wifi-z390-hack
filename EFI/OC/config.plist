@@ -109,6 +109,11 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>shikigva</key>
+				<integer>80</integer>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -118,6 +123,10 @@
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>igfxfw</key>
+				<data>
+				AgAAAA==
 				</data>
 			</dict>
 		</dict>
@@ -461,7 +470,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 alcid=16 agdpmod=pikera shikigva=80 igfxfw=2 slide=4</string>
+				<string>-v debug=0x100 keepsyms=1 alcid=16 agdpmod=pikera slide=4</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
