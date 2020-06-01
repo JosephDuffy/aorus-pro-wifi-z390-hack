@@ -63,7 +63,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Name | Version | Link |
 |------|---------|------|
 | BIOS | F11 | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
-| OpenCore | 0.5.7 | https://github.com/acidanthera/OpenCorePkg |
+| OpenCore | 0.5.9 | https://github.com/acidanthera/OpenCorePkg |
 | Lilu | 1.4.3 | https://github.com/acidanthera/Lilu |
 | WhateverGreen | 1.3.8 | https://github.com/acidanthera/WhateverGreen |
 | AppleALC | 1.4.8 | https://github.com/acidanthera/AppleALC |
@@ -79,7 +79,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Feature | Working | Notes |
 |---------|---------|-------|
 | FairPlay 1.x: | ☑ |  |
-| FairPlay 2.x/3.x (Netflix/Amazon Prime Video) | ☑ | Tested with Amazon Prime Video. Max 1080p. |
+| FairPlay 2.x/3.x (Netflix/Amazon Prime Video) | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/5 |
 | FairPlay 4.x (Apple TV+) | ☑ |  |
 | Thunderbolt Hotplug | ☑ |  |
 | Thunderbolt after wake from sleep | ☑ |  |
@@ -91,7 +91,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Multimonitor on boot | ☑ | Dual-DP LG 5k and 4k over HDMI |
 | LG 5k UltraFine | ☑ | Full 5k HDR |
 | Unlock with Watch | ☑ |  |
-| Bluetooth | ☑ |  |
+| Bluetooth | ☑ | Cannot turn off and back on without wake/sleep or reboot |
 | WiFi | ☑ |  |
 | iMessage | ☑ |  |
 | Handoff | ☑ |  |

@@ -38,7 +38,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "SsdtEC", 0x00001000)
         {
             If (_OSI ("Darwin"))
             {
-                Return (0)
+                Return (Zero)
             }
             Else
             {
@@ -96,4 +96,3 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "SsdtEC", 0x00001000)
         }
     }
 }
-

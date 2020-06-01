@@ -1,44 +1,30 @@
-
-DefinitionBlock ("", "SSDT", 2, "CpuRef", "CpuPlug", 0x00003000)
+/*
+ * XCPM power management compatibility table.
+ */
+DefinitionBlock ("", "SSDT", 2, "ACDT", "CpuPlug", 0x00003000)
 {
     External (_SB_.PR00, ProcessorObj)
-    Scope (\_SB_.PR00)
-    {
-        Method (DTGP, 5, NotSerialized)
-        {
-            If ((Arg0 == ToUUID ("a0b5b7c6-1318-441c-b0c9-fe695eaf949b")))
-            {
-                If ((Arg1 == One))
+
+    Method (PMPM, 4, NotSerialized) {
+       If (LEqual (Arg2, Zero)) {
+           Return (Buffer (One) { 0x03 })
+       }
+
+       Return (Package (0x02)
+       {
+           "plugin-type", 
+           One
+       })
+    }
+
+    If (CondRefOf (\_SB.PR00)) {
+        If ((ObjectType (\_SB.PR00) == 0x0C)) {
+            Scope (\_SB.PR00) {
+                Method (_DSM, 4, NotSerialized)  
                 {
-                    If ((Arg2 == Zero))
-                    {
-                        Arg4 = Buffer (One)
-                            {
-                                 0x03                                             // .
-                            }
-                        Return (One)
-                    }
-                    If ((Arg2 == One))
-                    {
-                        Return (One)
-                    }
+                    Return (PMPM (Arg0, Arg1, Arg2, Arg3))
                 }
             }
-            Arg4 = Buffer (One)
-                {
-                     0x00                                             // .
-                }
-            Return (Zero)
-        }
-        Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
-        {
-            Local0 = Package (0x02)
-                {
-                    "plugin-type", 
-                    One
-                }
-            DTGP (Arg0, Arg1, Arg2, Arg3, RefOf (Local0))
-            Return (Local0)
         }
     }
 }
