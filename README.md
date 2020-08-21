@@ -7,7 +7,7 @@ Sometimes the runtime allocation error will start. Wipe CMOS and setup BIOS agai
 ## Hardware
 
 - CPU: Intel Core i9-9900K 3.6 GHz 8-Core Processor
-- CPU Cooler: ARCTIC Liquid Freezer 240 74 CFM Liquid CPU Cooler
+- CPU Cooler: Noctua NH-D15
 - Motherboard: Gigabyte Z390 AORUS PRO WIFI ATX LGA1151 Motherboard
 - Memory: Corsair Vengeance LPX 32 GB (4 x 8 GB) DDR4-3200
 - Storage: Samsung 960 EVO 500 GB M.2-2280 NVME Solid State Drive (macOS)
