@@ -54,7 +54,7 @@ Uses BIOS F11. CFG lock is at 0x5C1 (**DO NOT COPY THIS VALUE**).
 - Boot
   - Preferred Operating Mode: Advanced Mode
 
-Note that CSM Support is left as enabled; disabling CSM Support causes a boot hang on reboot. For more infomation see [Issue #1](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1).
+Note that CSM Support is left as enabled; disabling CSM Support causes a boot hang on reboot. For more information see [Issue #1](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1).
 
 Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to remove CFG Lock (MSR 0xE2 write protection). Reboot.
 
