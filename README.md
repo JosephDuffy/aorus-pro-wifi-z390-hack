@@ -6,7 +6,7 @@ Sometimes the runtime allocation error will start. Wipe CMOS and setup BIOS agai
 
 ## Hardware
 
-- CPU: Intel Core i9-9900K 3.6 GHz 8-Core Processor
+- CPU: [Intel Core i9-9900K 3.6 GHz 8-Core Processor](https://ark.intel.com/content/www/us/en/ark/products/186605/intel-core-i9-9900k-processor-16m-cache-up-to-5-00-ghz.html)
 - CPU Cooler: Noctua NH-D15
 - Motherboard: Gigabyte Z390 AORUS PRO WIFI ATX LGA1151 Motherboard
 - Memory: Corsair Vengeance LPX 32 GB (4 x 8 GB) DDR4-3200
