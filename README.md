@@ -44,7 +44,7 @@ Uses BIOS F11. CFG lock is at 0x5C1 (**DO NOT COPY THIS VALUE**).
       - Discrete Thunderbolt(TM) Configuration
         - Thunderbolt Usb Support: Enabled
         - GPIO3 Force Pwr: Enabled
-          - This is not strictly neccessary since the LG 5k is connected at boot
+          - This is not strictly necessary to boot with the LG 5k connected at boot, but is required for non-Thunderbolt ports on a dock to work on boot
     - USB Configuration
       - Legacy USB Support: Disabled
       - XHCI Hand-off: Enabled
