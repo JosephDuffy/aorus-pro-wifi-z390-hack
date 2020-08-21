@@ -63,7 +63,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | Name | Version | Link |
 |------|---------|------|
 | BIOS | F11 | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
-| OpenCore | 0.5.9 | https://github.com/acidanthera/OpenCorePkg |
+| OpenCore | 0.6.0 | https://github.com/acidanthera/OpenCorePkg |
 | Lilu | 1.4.5 | https://github.com/acidanthera/Lilu |
 | WhateverGreen | 1.4.0 | https://github.com/acidanthera/WhateverGreen |
 | AppleALC | 1.5.0 | https://github.com/acidanthera/AppleALC |
