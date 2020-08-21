@@ -60,48 +60,48 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 
 ## Projects Utilised
 
-| Name | Version | Link |
-|------|---------|------|
-| BIOS | F11 | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
-| OpenCore | 0.6.0 | https://github.com/acidanthera/OpenCorePkg |
-| Lilu | 1.4.5 | https://github.com/acidanthera/Lilu |
-| WhateverGreen | 1.4.0 | https://github.com/acidanthera/WhateverGreen |
-| AppleALC | 1.5.0 | https://github.com/acidanthera/AppleALC |
-| IntelMausiEthernet | 2.5.0 | https://github.com/Mieze/IntelMausiEthernet |
-| VirtualSMC | 1.1.4 | https://github.com/acidanthera/VirtualSMC |
-| NVMeFix | 1.0.2 | https://github.com/acidanthera/NVMeFix |
-| USBInjectAll | 0.7.5 | https://github.com/Sniki/OS-X-USB-Inject-All |
-| USBMap | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap |
-| SSDT for Thunderbolt 3 Hotplug | SSDT-Z370-TB3HP | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/ |
-| Config Sanity Checker | N/A | https://opencore.slowgeek.com/ |
-| OpenCore Desktop Guide | N/A | https://dortania.github.io/OpenCore-Desktop-Guide/ |
+| Name                           | Version                                                                                     | Link                                                                                       |
+| ------------------------------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| BIOS                           | F11                                                                                         | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
+| OpenCore                       | 0.6.0                                                                                       | https://github.com/acidanthera/OpenCorePkg                                                 |
+| Lilu                           | 1.4.5                                                                                       | https://github.com/acidanthera/Lilu                                                        |
+| WhateverGreen                  | 1.4.0                                                                                       | https://github.com/acidanthera/WhateverGreen                                               |
+| AppleALC                       | 1.5.0                                                                                       | https://github.com/acidanthera/AppleALC                                                    |
+| IntelMausiEthernet             | 2.5.0                                                                                       | https://github.com/Mieze/IntelMausiEthernet                                                |
+| VirtualSMC                     | 1.1.4                                                                                       | https://github.com/acidanthera/VirtualSMC                                                  |
+| NVMeFix                        | 1.0.2                                                                                       | https://github.com/acidanthera/NVMeFix                                                     |
+| USBInjectAll                   | 0.7.5                                                                                       | https://github.com/Sniki/OS-X-USB-Inject-All                                               |
+| USBMap                         | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap                                                         |
+| SSDT for Thunderbolt 3 Hotplug | SSDT-Z370-TB3HP                                                                             | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/      |
+| Config Sanity Checker          | N/A                                                                                         | https://opencore.slowgeek.com/                                                             |
+| OpenCore Desktop Guide         | N/A                                                                                         | https://dortania.github.io/OpenCore-Desktop-Guide/                                         |
 
 ## Feature Checklist
 
-| Feature | Working | Notes |
-|---------|---------|-------|
-| FairPlay 1.x: | ☑ |  |
-| FairPlay 2.x/3.x (Netflix/Amazon Prime Video) | ☒ | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/5 |
-| FairPlay 4.x (Apple TV+) | ☑ |  |
-| Thunderbolt Hotplug | ☑ |  |
-| Thunderbolt after wake from sleep | ☑ |  |
-| [iGPU performance (loading Apple's GuC)](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/drm.html#fixing-igpu-performance) | ☑ | Tested with 400mbps HEVC video from [Jellyfish Bitrate Test Files](http://www.jell.yfish.us/) |
-| Reboot | ☑ | [Requires CSM to be enabled](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1) |
-| Hardware Acceleration | ☑ | h264/HEVC |
-| CPU Power States | ☑ | Ranges from 800MHz up to 5GHz (Turbo Boost) |
-| Shutdown | ☑ | Requires ErP or CSM to be enabled |
-| Multimonitor on boot | ☑ | Dual-DP LG 5k and 4k over HDMI |
-| LG 5k UltraFine | ☑ | Full 5k HDR |
-| Unlock with Watch | ☑ |  |
-| Bluetooth | ☑ | Cannot turn off and back on without wake/sleep or reboot |
-| WiFi | ☑ |  |
-| iMessage | ☑ |  |
-| Handoff | ☑ |  |
-| Airdrop | ☑ |  |
-| Hardware Sensors | ☑ | CPU/GPU/RAM usage, etc. via iStat Menus |
-| Onboard Audio | ☑ | Only 3.5mm output tested |
-| USB Audio | ☑ |  |
-| Sleep/Wake | ☑ | Stays asleep. Wakes for powernap and goes back to sleep. |
+| Feature                                                                                                                                   | Working | Notes                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------- |
+| FairPlay 1.x:                                                                                                                             | ☑       |                                                                                                |
+| FairPlay 2.x/3.x (Netflix/Amazon Prime Video)                                                                                             | ☒       | https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/5                               |
+| FairPlay 4.x (Apple TV+)                                                                                                                  | ☑       |                                                                                                |
+| Thunderbolt Hotplug                                                                                                                       | ☑       |                                                                                                |
+| Thunderbolt after wake from sleep                                                                                                         | ☑       |                                                                                                |
+| [iGPU performance (loading Apple's GuC)](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/drm.html#fixing-igpu-performance) | ☑       | Tested with 400mbps HEVC video from [Jellyfish Bitrate Test Files](http://www.jell.yfish.us/)  |
+| Reboot                                                                                                                                    | ☑       | [Requires CSM to be enabled](https://github.com/JosephDuffy/aorus-pro-wifi-z390-hack/issues/1) |
+| Hardware Acceleration                                                                                                                     | ☑       | h264/HEVC                                                                                      |
+| CPU Power States                                                                                                                          | ☑       | Ranges from 800MHz up to 5GHz (Turbo Boost)                                                    |
+| Shutdown                                                                                                                                  | ☑       | Requires ErP or CSM to be enabled                                                              |
+| Multimonitor on boot                                                                                                                      | ☑       | Dual-DP LG 5k and 4k over HDMI                                                                 |
+| LG 5k UltraFine                                                                                                                           | ☑       | Full 5k HDR                                                                                    |
+| Unlock with Watch                                                                                                                         | ☑       |                                                                                                |
+| Bluetooth                                                                                                                                 | ☑       | Cannot turn off and back on without wake/sleep or reboot                                       |
+| WiFi                                                                                                                                      | ☑       |                                                                                                |
+| iMessage                                                                                                                                  | ☑       |                                                                                                |
+| Handoff                                                                                                                                   | ☑       |                                                                                                |
+| Airdrop                                                                                                                                   | ☑       |                                                                                                |
+| Hardware Sensors                                                                                                                          | ☑       | CPU/GPU/RAM usage, etc. via iStat Menus                                                        |
+| Onboard Audio                                                                                                                             | ☑       | Only 3.5mm output tested                                                                       |
+| USB Audio                                                                                                                                 | ☑       |                                                                                                |
+| Sleep/Wake                                                                                                                                | ☑       | Stays asleep. Wakes for powernap and goes back to sleep.                                       |
 
 ## Anonymisation Git Hook
 
