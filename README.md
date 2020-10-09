@@ -10,7 +10,7 @@ Sometimes the runtime allocation error will start. Wipe CMOS and setup BIOS agai
 - CPU Cooler: Noctua NH-D15
 - Motherboard: Gigabyte Z390 AORUS PRO WIFI ATX LGA1151 Motherboard
 - Memory: Corsair Vengeance LPX 32 GB (4 x 8 GB) DDR4-3200
-- Storage: Samsung 960 EVO 500 GB M.2-2280 NVME Solid State Drive (macOS)
+- Storage: ADATA XPG SX8200 Pro 2 TB NVMe SSD (macOS)
 - Storage: Samsung 850 EVO-Series 250 GB 2.5" Solid State Drive (Windows)
 - Video Card: MSI Radeon RX 580 8 GB ARMOR OC Video Card
 - Thunderbolt Card: Gigabyte Titan Ridge
