@@ -60,21 +60,22 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 
 ## Projects Utilised
 
-| Name                           | Version                                                                                     | Link                                                                                       |
-| ------------------------------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| BIOS                           | F11                                                                                         | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
-| OpenCore                       | 0.6.0                                                                                       | https://github.com/acidanthera/OpenCorePkg                                                 |
-| Lilu                           | 1.4.8                                                                                       | https://github.com/acidanthera/Lilu                                                        |
-| WhateverGreen                  | 1.4.3                                                                                       | https://github.com/acidanthera/WhateverGreen                                               |
-| AppleALC                       | 1.5.3                                                                                       | https://github.com/acidanthera/AppleALC                                                    |
-| IntelMausi                     | 1.0.4                                                                                       | https://github.com/acidanthera/IntelMausi                                                  |
-| VirtualSMC                     | 1.1.7                                                                                       | https://github.com/acidanthera/VirtualSMC                                                  |
-| NVMeFix                        | 1.0.4                                                                                       | https://github.com/acidanthera/NVMeFix                                                     |
-| USBInjectAll                   | 0.7.5                                                                                       | https://github.com/Sniki/OS-X-USB-Inject-All                                               |
-| USBMap                         | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d) | https://github.com/corpnewt/USBMap                                                         |
-| SSDT for Thunderbolt 3 Hotplug | SSDT-Z370-TB3HP                                                                             | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/      |
-| Config Sanity Checker          | N/A                                                                                         | https://opencore.slowgeek.com/                                                             |
-| OpenCore Desktop Guide         | N/A                                                                                         | https://dortania.github.io/OpenCore-Desktop-Guide/                                         |
+| Name                           | Version                                                                                           | Link                                                                                       |
+| ------------------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| BIOS                           | F11                                                                                               | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
+| OpenCore                       | 0.6.2                                                                                             | https://github.com/acidanthera/OpenCorePkg                                                 |
+| Lilu                           | 1.4.8                                                                                             | https://github.com/acidanthera/Lilu                                                        |
+| WhateverGreen                  | 1.4.3                                                                                             | https://github.com/acidanthera/WhateverGreen                                               |
+| AppleALC                       | 1.5.3                                                                                             | https://github.com/acidanthera/AppleALC                                                    |
+| IntelMausi                     | 1.0.4                                                                                             | https://github.com/acidanthera/IntelMausi                                                  |
+| VirtualSMC                     | 1.1.7                                                                                             | https://github.com/acidanthera/VirtualSMC                                                  |
+| NVMeFix                        | 1.0.4                                                                                             | https://github.com/acidanthera/NVMeFix                                                     |
+| USBInjectAll                   | 0.7.5                                                                                             | https://github.com/Sniki/OS-X-USB-Inject-All                                               |
+| USBMap                         | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d)       | https://github.com/corpnewt/USBMap                                                         |
+| SSDT for Thunderbolt 3 Hotplug | SSDT-Z370-TB3HP                                                                                   | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/      |
+| ProperTree                     | [f2910d7](https://github.com/corpnewt/ProperTree/commit/f2910d7fdcfcd719f4c64662bbc5aae234ff0bf0) | https://github.com/corpnewt/ProperTree                                                     |
+| Config Sanity Checker          | N/A                                                                                               | https://opencore.slowgeek.com/                                                             |
+| OpenCore Desktop Guide         | N/A                                                                                               | https://dortania.github.io/OpenCore-Desktop-Guide/                                         |
 
 ## Feature Checklist
 
@@ -91,7 +92,7 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 | CPU Power States                                                                                                                          | ☑       | Ranges from 800MHz up to 5GHz (Turbo Boost)                                                    |
 | Shutdown                                                                                                                                  | ☑       | Requires ErP or CSM to be enabled                                                              |
 | Multimonitor on boot                                                                                                                      | ☑       | Dual-DP LG 5k and 4k over HDMI                                                                 |
-| LG 5k UltraFine                                                                                                                           | ☑       | Full 5k HDR                                                                                    |
+| LG 5k UltraFine                                                                                                                           | ☑       | Full 5k 10-bit colour                                                                          |
 | Unlock with Watch                                                                                                                         | ☑       |                                                                                                |
 | Bluetooth                                                                                                                                 | ☑       | Cannot turn off and back on without wake/sleep or reboot                                       |
 | WiFi                                                                                                                                      | ☑       |                                                                                                |
