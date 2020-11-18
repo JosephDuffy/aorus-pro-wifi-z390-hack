@@ -60,22 +60,23 @@ Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to
 
 ## Projects Utilised
 
-| Name                           | Version                                                                                           | Link                                                                                       |
-| ------------------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| BIOS                           | F11                                                                                               | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
-| OpenCore                       | 0.6.3                                                                                             | https://github.com/acidanthera/OpenCorePkg                                                 |
-| Lilu                           | 1.4.9                                                                                             | https://github.com/acidanthera/Lilu                                                        |
-| WhateverGreen                  | 1.4.4                                                                                             | https://github.com/acidanthera/WhateverGreen                                               |
-| AppleALC                       | 1.5.4                                                                                             | https://github.com/acidanthera/AppleALC                                                    |
-| IntelMausi                     | 1.0.4                                                                                             | https://github.com/acidanthera/IntelMausi                                                  |
-| VirtualSMC                     | 1.1.8                                                                                             | https://github.com/acidanthera/VirtualSMC                                                  |
-| NVMeFix                        | 1.0.4                                                                                             | https://github.com/acidanthera/NVMeFix                                                     |
-| USBInjectAll                   | 0.7.5                                                                                             | https://github.com/Sniki/OS-X-USB-Inject-All                                               |
-| USBMap                         | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d)       | https://github.com/corpnewt/USBMap                                                         |
-| SSDT for Thunderbolt 3 Hotplug | SSDT-Z370-TB3HP                                                                                   | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/      |
-| ProperTree                     | [f2910d7](https://github.com/corpnewt/ProperTree/commit/f2910d7fdcfcd719f4c64662bbc5aae234ff0bf0) | https://github.com/corpnewt/ProperTree                                                     |
-| Config Sanity Checker          | N/A                                                                                               | https://opencore.slowgeek.com/                                                             |
-| OpenCore Desktop Guide         | N/A                                                                                               | https://dortania.github.io/OpenCore-Desktop-Guide/                                         |
+| Name                           | Version                                                                                               | Link                                                                                       |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| BIOS                           | F11                                                                                                   | https://www.gigabyte.com/uk/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-bios |
+| OpenCore                       | 0.6.3                                                                                                 | https://github.com/acidanthera/OpenCorePkg                                                 |
+| Lilu                           | 1.4.9                                                                                                 | https://github.com/acidanthera/Lilu                                                        |
+| WhateverGreen                  | 1.4.4                                                                                                 | https://github.com/acidanthera/WhateverGreen                                               |
+| AppleALC                       | 1.5.4                                                                                                 | https://github.com/acidanthera/AppleALC                                                    |
+| IntelMausi                     | 1.0.4                                                                                                 | https://github.com/acidanthera/IntelMausi                                                  |
+| VirtualSMC                     | 1.1.8                                                                                                 | https://github.com/acidanthera/VirtualSMC                                                  |
+| NVMeFix                        | 1.0.4                                                                                                 | https://github.com/acidanthera/NVMeFix                                                     |
+| USBInjectAll                   | 0.7.5                                                                                                 | https://github.com/Sniki/OS-X-USB-Inject-All                                               |
+| USBMap                         | [f6e28b6](https://github.com/corpnewt/USBMap/tree/f6e28b6f0c7edd5347690a1721f5a2241cbcc35d)           | https://github.com/corpnewt/USBMap                                                         |
+| SSDT for Thunderbolt 3 Hotplug | SSDT-Z370-TB3HP                                                                                       | https://www.tonymacx86.com/threads/in-progress-ssdt-for-thunderbolt-3-hotplug.248784/      |
+| CPUFriendFriend                | [ae123c0](https://github.com/fewtarius/CPUFriendFriend/tree/ae123c0aeb4595ce102da5355a85a690c3ddd03f) | https://github.com/fewtarius/CPUFriendFriend                                               |
+| ProperTree                     | [f2910d7](https://github.com/corpnewt/ProperTree/commit/f2910d7fdcfcd719f4c64662bbc5aae234ff0bf0)     | https://github.com/corpnewt/ProperTree                                                     |
+| Config Sanity Checker          | N/A                                                                                                   | https://opencore.slowgeek.com/                                                             |
+| OpenCore Desktop Guide         | N/A                                                                                                   | https://dortania.github.io/OpenCore-Desktop-Guide/                                         |
 
 ## Feature Checklist
 

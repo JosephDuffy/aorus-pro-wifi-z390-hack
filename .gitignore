@@ -1,2 +1,7 @@
 .DS_Store
 /EFI/OC/Resources
+CPUFriendFriend/*
+!CPUFriendFriend/Results/
+!CPUFriendFriend/Results/*
+CPUFriendFriend/Results/.DS_Store
+/CPUFriendFriend/Results/CPUFriendDataProvider.kext
