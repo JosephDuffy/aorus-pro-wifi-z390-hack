@@ -58,6 +58,10 @@ Note that CSM Support is left as enabled; disabling CSM Support causes a boot ha
 
 Boot in to OpenCore and use Modified GRUB Shell. Run `setup_var_3 0x5C1 0x00` to remove CFG Lock (MSR 0xE2 write protection). Reboot.
 
+## macOS Configuration
+
+`defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes` to fix Apple TV+ DRM.
+
 ## Projects Utilised
 
 | Name                           | Version                                                                                               | Link                                                                                       |
